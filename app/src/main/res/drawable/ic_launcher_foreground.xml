@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Pitch tactical boundary line within 66dp safe zone (24 to 84) -->
+    <path
+        android:pathData="M24,24 L84,24 L84,84 L24,84 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#A0FFFFFF"
+        android:fillColor="#00000000" />
+    <!-- Center halfway line -->
+    <path
+        android:pathData="M24,54 L84,54"
+        android:strokeWidth="1.5"
+        android:strokeColor="#A0FFFFFF" />
+    <!-- Center circle -->
+    <path
+        android:pathData="M54,44 A10,10 0 1,0 54,64 A10,10 0 1,0 54,44"
+        android:strokeWidth="1.5"
+        android:strokeColor="#A0FFFFFF"
+        android:fillColor="#00000000" />
+    <!-- Tactical play movement arrow -->
+    <path
+        android:pathData="M35,68 Q48,46 64,36"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFEB3B"
+        android:fillColor="#00000000" />
+    <!-- Arrowhead -->
+    <path
+        android:pathData="M60,32 L68,34 L66,42 Z"
+        android:fillColor="#FFEB3B" />
+    <!-- Tactical player dots: Team A (Cyan) -->
+    <path
+        android:pathData="M35,68 A4.5,4.5 0 1,0 35,77 A4.5,4.5 0 1,0 35,68"
+        android:fillColor="#00E5FF" />
+    <!-- Tactical player dot: Team B (Orange defender) -->
+    <path
+        android:pathData="M50,48 A4.5,4.5 0 1,0 50,57 A4.5,4.5 0 1,0 50,48"
+        android:fillColor="#FF5722" />
+    <!-- Soccer ball with glow -->
+    <path
+        android:pathData="M68,36 A5,5 0 1,0 68,46 A5,5 0 1,0 68,36"
+        android:fillColor="#FFFFFF" />
+</vector>
